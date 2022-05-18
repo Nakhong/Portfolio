@@ -1,0 +1,92 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: fit-content;
+}
+
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.profile-details {
+  background-color: white;
+}
+.profile-details-name {
+  font-size: 24px;
+  color: black;
+}
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+  color: black;
+}
+
+.profile-details-role h1 {
+  font-size: 40px;
+}
+.primary-text {
+  color: (--white);
+}
+.highlighted-text {
+  color: var(--dark-orange);
+}
+.profile-role-tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.colz-icon {
+  color: white;
+}
+.colz-icon:hover {
+  color: var(--color-white);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: wheat;
+  padding: 8px 12px;
+}
+.toolbar > h2 {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.list_main {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.list_main li {
+  font-size: 18px;
+  padding: 8px 50px;
+}
+
+.list_main li > a {
+  cursor: pointer;
+}
+
+/* > 768px(desktop) */
+
+@media screen and (min-width: 768px) {
+}
+/* Custom Grid - Fix container width */
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
