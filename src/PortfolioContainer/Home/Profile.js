@@ -20,9 +20,6 @@ export default function Profile() {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#AboutMe">about me</a>
-            </li>
-            <li>
               <a href="#skills">Skills</a>
             </li>
             <li>
@@ -48,13 +45,19 @@ export default function Profile() {
             </div>
             <div className="colz">
               <div className="colz-icon">
-                <a href="https://www.facebook.com/profile.php?id=100003576937305">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100003576937305"
+                  target="_blank"
+                >
                   <AiFillFacebook />
                 </a>
-                <a href="https://github.com/Nakhong/">
+                <a href="https://github.com/Nakhong/" target="_blank">
                   <AiFillGithub />
                 </a>
-                <a href="https://www.instagram.com/hwa_nak_hong/">
+                <a
+                  href="https://www.instagram.com/hwa_nak_hong/"
+                  target="_blank"
+                >
                   <AiFillInstagram />
                 </a>
               </div>

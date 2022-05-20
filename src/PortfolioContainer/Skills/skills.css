@@ -1,0 +1,82 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+}
+
+li {
+  list-style: square;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about_skills_title {
+  border-bottom: solid 1px #000000;
+}
+
+.introduction__title,
+.section__title {
+  color: aqua;
+}
+
+.introduction__list {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.skills__main {
+  flex-direction: column;
+  width: 30%;
+}
+
+.skills_all {
+  display: flex;
+}
+
+.skills2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__header {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.section__all2 {
+  display: flex;
+}
+.skills__list {
+  display: flex;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.collaboration {
+  display: flex;
+}
+.collaboration_title {
+  display: flex;
+  width: 30%;
+}
+
+.collaboration__contents {
+  display: flex;
+  margin-left: 5%;
+}

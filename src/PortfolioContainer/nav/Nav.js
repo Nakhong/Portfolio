@@ -12,9 +12,6 @@ const Nav = () => {
       <a href="#">
         <AiOutlineHome />
       </a>
-      <a href="#AboutMe">
-        <AiOutlineUser />
-      </a>
       <a href="#skills">
         <BiBook />
       </a>

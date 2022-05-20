@@ -1,7 +1,6 @@
 import "./App.css";
 import Profile from "./PortfolioContainer/Home/Profile";
 import Nav from "./PortfolioContainer/nav/Nav";
-import AboutMe from "./PortfolioContainer/AboutMe/AboutMe";
 import ContactMe from "./PortfolioContainer/ContactMe/ContactMe";
 import Footer from "./PortfolioContainer/Footer/Footer";
 import Skills from "./PortfolioContainer/Skills/skills";
@@ -11,7 +10,6 @@ function App() {
     <div className="App">
       <Nav />
       <Profile />
-      <AboutMe />
       <Skills />
       <Portfolio />
       <ContactMe />

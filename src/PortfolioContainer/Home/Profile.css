@@ -12,6 +12,7 @@
   align-items: center;
   color: black;
 }
+
 .profile-details {
   background-color: white;
 }
@@ -29,6 +30,7 @@
 .profile-details-role h1 {
   font-size: 40px;
 }
+
 .primary-text {
   color: (--white);
 }
@@ -41,13 +43,15 @@
 }
 
 img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
+  margin-bottom: 30px;
 }
-.colz-icon {
-  color: white;
+.colz-icon a {
+  color: black;
 }
+
 .colz-icon:hover {
   color: var(--color-white);
 }
@@ -56,9 +60,10 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: wheat;
+  background-color: #98fb98;
   padding: 8px 12px;
 }
+
 .toolbar > h2 {
   font-weight: 500;
   cursor: pointer;
@@ -66,13 +71,13 @@ img {
 
 .list_main {
   display: flex;
-  list-style: none;
   padding-left: 0;
 }
 
 .list_main li {
   font-size: 18px;
   padding: 8px 50px;
+  list-style: none !important;
 }
 
 .list_main li > a {
