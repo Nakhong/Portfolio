@@ -1,0 +1,56 @@
+.container {
+  border: 5px solid blue;
+  margin: 10px;
+  padding: 5px;
+}
+
+.Portfolio {
+  background-color: #f7ccac;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.swiper {
+  width: 500px;
+  height: 600px;
+}
+
+.swiper-button-prev {
+  color: white;
+}
+
+.swiper-button-next {
+  color: white;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background: #3a3845;
+  text-align: center;
+  color: white;
+}
+
+.swiper-slide img {
+  width: 300px;
+  height: 300px;
+  border-radius: 0%;
+}
+
+.Swiper_btn {
+  display: flex;
+  width: max-content;
+  justify-content: space-between;
+  padding: 0.75rem 1.2rem;
+}
+
+.Swiper_btn a {
+  border-radius: 0%;
+  border: 2px solid white;
+  margin-left: 10px;
+}
