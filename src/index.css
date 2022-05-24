@@ -54,6 +54,8 @@ body ::-webkit-scrollbar-thumb {
   width: 160px;
   cursor: pointer;
   transition: 0.2s;
+  background: #3a3845;
+  color: white;
 }
 
 .btn:active {
